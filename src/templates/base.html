@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ 
+    <title>Kirr.co | {%block title%} Shorten Your URL{% endblock title %}</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='https://getbootstrap.com/docs/3.3/examples/cover/cover.css'>
+    <style>
+        body{
+            background-color:#277084;
+            background-image: url('https://avatars.mds.yandex.net/get-pdb/34158/643ab35e-514b-4650-8006-e13a41146a83/orig');
+            background-size: cover;
+
+            <!-- #226268 -->
+        }
+
+        .btn-link{
+            color:#ead71f;
+            <!-- #50dfec; -->
+            text-shadow: none;
+        }
+
+        .btn-link:hover{
+            color: #111;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+ <div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+    <div class="cover-container">
+
+        <div class="inner cover">
+
+        {% block content %}
+        {% endblock content %}
+        
+        </div>
+
+        
+    </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
